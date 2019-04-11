@@ -1,33 +1,36 @@
 body {
-    
+
     background-image: url(Images/blurred.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
 div {
-color: white;
-text-align: center;
-line-height: 0.8;
+    color: white;
+    text-align: center;
+    line-height: 0.8;
 }
 
-#myHeader {
-  height: 60px;
-  background-color: #f1f1f1;
+myHeader {
+    height: 60px;
+    background-color: #f1f1f1;
 }
-#welcome {
-    
+
+welcome {
+
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
-#skills {
-    
+
+skills {
+
     text-align: center;
 }
-#portfolio {
-    
+
+portfolio {
+
     text-align: center;
 }

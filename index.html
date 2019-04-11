@@ -2,49 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-        
-      <link rel="stylesheet" type="text/css" href="Styles.CSS">
-      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles.CSS">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>Home</title>
-  </head>
-  <body>
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bryan Wilson | Web Devs</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        
+    </nav>
 
 
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Bryan Wilson | Web Devs</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li> 
-        <li><a href="#">Page 3</a></li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    
     <div class="row">
-        <div class="col-xs-12" id="welcome"><h1>Bryan Wilson | Web Devs</h1></div>
+        <div class="col-xs-12" id="welcome">
+            <h1>Bryan Wilson | Web Devs</h1>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-offset-2 col-md-8"></div>
@@ -52,20 +55,26 @@
     <div class="row">
         <div class="col-xs-12"></div>
     </div>
-      
-      <div class="container">
-    <div class="row">
-        <div class="col-md-6" id="skills"><H1>Skills</H1><h3><ul style="list-style-type:circle">
-<li>Html & CSS</li>
-<li>Javascript</li>
-<li>jQuery</li>
-<li>JSON</li>            
-<li>Bootstrap</li>
-</ul></h3></div>
-        <div class="col-md-6" id="portfolio"><H1 id="portfolio">Portfolio</H1></div>
-    </div>
-</div>
 
-         
-  </body>
-</html>
+    
+        <div class="row">
+            <div class="col-md-6" id="skills">
+                <h1>Skills</h1>
+                <h3>
+                    <ul style="list-style-type:circle">
+                        <li>Html & CSS</li>
+                        <li>Javascript</li>
+                        <li>jQuery</li>
+                        <li>JSON</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="col-md-6" id="portfolio">
+                <h1 id="Portfolio">Portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
