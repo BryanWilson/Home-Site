@@ -1,15 +1,25 @@
 body {
 
-    background-image: url(Images/blurred.jpg);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
 
 
 }
 
-.col-sm-12 {
-    background-color: aqua;
+
+.graybox {
     
+    border-color: whitesmoke;
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
+    height: 400px;
 }
 
+.welcome {
+    
+    height: 100vh;
+    background-color: blue;
 
+}
