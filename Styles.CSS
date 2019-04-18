@@ -7,30 +7,9 @@ body {
 
 }
 
-div {
-    color: white;
-    text-align: center;
-    line-height: 0.8;
+.col-sm-12 {
+    background-color: aqua;
+    
 }
 
-myHeader {
-    height: 60px;
-    background-color: #f1f1f1;
-}
 
-welcome {
-
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-skills {
-
-    text-align: center;
-}
-
-portfolio {
-
-    text-align: center;
-}
