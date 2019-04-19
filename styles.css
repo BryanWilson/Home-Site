@@ -9,7 +9,7 @@ body {
 
 
 .graybox {
-    
+
     border-color: whitesmoke;
     border-bottom-style: solid;
     border-width: medium;
@@ -18,8 +18,21 @@ body {
 }
 
 .welcome {
-    
+
     height: 100vh;
-    background-color: blue;
+    background-color: white;
+    padding-top: 20%;
+    text-align: center;
+
+
 
 }
+
+.message {
+
+    border-color: whitesmoke;
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
+    padding-top: 10%;
+    text-align: center;
