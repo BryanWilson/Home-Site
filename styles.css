@@ -44,7 +44,7 @@ body {
     border-width: medium;
     background-color: lightgrey;
     height: 400px;
-    text-align: left;
+    
 }
 
 
@@ -58,5 +58,5 @@ body {
     border-width: medium;
     background-color: lightgrey;
     height: 400px;
-    text-align: right;
+   
 }
