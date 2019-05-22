@@ -15,6 +15,9 @@ html { font-size: 1rem; }
 
 /*
 
+
+bootstrap 4's recomendid reponsive text resizing ( but i dont want to deal with sass atm )
+
 html {
   font-size: 1rem;
 }
