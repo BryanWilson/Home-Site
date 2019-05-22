@@ -7,14 +7,23 @@ body {
 
 }
 
+.row {
+    
+    margin-top: 25px;
+    
+}
 
 .graybox {
 
     border-color: whitesmoke;
+    padding: 50px;
     border-bottom-style: solid;
     border-width: medium;
     background-color: lightgrey;
     height: 400px;
+    border-radius: 10px;
+    
+    
 }
 
 .welcome {
