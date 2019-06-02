@@ -1,8 +1,19 @@
 
 
+/*Boot strap does not handle responsive text sizing so the media queries below set sizing per viewport*/
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        font-size: 4.2vw;
+        font-size: visibility: hidden;
+    }
+
+}
+
 @media (min-width: 576px) {
     .graybox {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+
     }
 
 }
@@ -15,46 +26,18 @@
 
 @media (min-width: 992px) {
     .graybox {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
 
 @media (min-width: 1200px) {
     .graybox {
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 }
 
 
-/*
 
-
-bootstrap 4's recomendid reponsive text resizing ( but i dont want to deal with sass atm )
-
-html {
-  font-size: 1rem;
-}
-
-
-/*
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-*/
 body {
 
     background-image: url();
