@@ -76,7 +76,8 @@ img {
 
 }
 
-.welcome {
+/*
+.welcome1 {
 
     height: 100vh;
     background-color: white;
@@ -86,6 +87,29 @@ img {
 
 
 }
+*/
+.welcome1 {
+
+    height: 100vh;
+/*
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+*/
+
+
+
+}
+.welcome2 {
+
+    
+    text-align: center;
+   
+
+
+
+}
+
 
 .message {
 
@@ -100,17 +124,8 @@ img {
 .card {
 
 
-    position: relative;
-    z-index: 1;
 
 
 }
 
-.firstMessage {
-
-
-    position: relative;
-    z-index: 1;
-
-
-}
+.firstMessage {}
