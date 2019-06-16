@@ -1,5 +1,3 @@
-
-
 /*Boot strap does not handle responsive text sizing so the media queries below set sizing per viewport*/
 
 @media (max-width: 575px) {
@@ -7,10 +5,8 @@
         font-size: 4.2vw;
         font-size: visibility: hidden;
     }
-     .graybox {
-      
 
-    }
+    .graybox {}
 
 
 }
@@ -60,7 +56,9 @@ img {
     max-height: 100%;
 }
 
-.col-sm-6, .col-sm-12, .page-footer {
+.col-sm-6,
+.col-sm-12,
+.page-footer {
 
     margin-top: 25px;
 
@@ -96,3 +94,23 @@ img {
     border-width: medium;
     background-color: lightgrey;
     text-align: center;
+
+}
+
+.card {
+
+
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.firstMessage {
+
+
+    position: relative;
+    z-index: 1;
+
+
+}
