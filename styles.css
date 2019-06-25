@@ -2,10 +2,15 @@
 
 /*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
 /*background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);*/
+/*background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);*/
+/*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
+/*background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);*/
+/*background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);*/
 body {
 
     background-image: url();
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
     background-size: 100%;
     background-repeat: no-repeat;
 
