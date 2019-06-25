@@ -10,7 +10,7 @@ body {
 
     background-image: url();
 
-    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
     background-size: 100%;
     background-repeat: no-repeat;
 
