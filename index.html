@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--Fave Icon-->
 
-    <link rel='icon' href='Images/Logo.png' type='image/x-icon'/>
+    <link rel='icon' href='Images/Logo.png' type='image/x-icon' />
 
     <title>Bryan Wilson | Web Devs</title>
 </head>
@@ -65,39 +65,97 @@
                         <div class="col-sm-3"></div>
                         <div class="col-sm-6 my-auto">
                             <div data-aos="fade-up">
-                                <img src="Images/Bryan1.JPG" class="rounded-circle img-responsive" alt="Bryan Wilson" height="300px"> 
-                            
-</div>
-                                <h1 style="color:white">Hello, world!<br>I'm Bryan Wilson and i'm a developer</h1><br>
-                                <h5 style="color:white">
-                             
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h5> <br>
-                                <p>
-                                    <button class="btn btn-lg btn-primary" btn-lg type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                        Contact me!
-                                    </button>
+                                <img src="Images/bwwdLogotumblr.png" class="rounded-circle img-responsive" alt="Bryan Wilson" height="200px">
 
-                                </p>
-                                <div class="collapse" id="collapseExample">
-                                    <div class="card card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                    </div>
+                            </div>
+                            <h1 style="color:white">Hello, world!<br>I'm Bryan Wilson and i'm a developer</h1><br>
+                            <h5 style="color:white">
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h5> <br>
+                            <p>
+                                <button class="btn btn-lg btn-primary" btn-lg type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Contact me!
+                                </button>
+                                <!--TODO: Impliment this bootstrap form-->
+                                <!--                                https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form-->
+
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body bg-transparent">
+                                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                                        <div class="messages"></div>
+
+                                        <div class="controls">
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="form_name">Firstname *</label>
+                                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="form_lastname">Lastname *</label>
+                                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="form_email">Email *</label>
+                                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="form_message">Message *</label>
+                                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12"><br>
+                                                    <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="text-muted">
+                                                        <strong>*</strong> These fields are required.
+                                                        .</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+
+                                    <!--                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.-->
                                 </div>
                             </div>
-                            <div class="col-sm-3"></div>
-
-
-
-
                         </div>
-                        <div class="welcome1"></div>
-                    </div>
+                        <div class="col-sm-3"></div>
 
+
+
+
+                    </div>
+                    <div class="welcome1"></div>
                 </div>
 
             </div>
 
         </div>
+
+    </div>
     </div>
     <!--
                 Viewport height 100% min - the px of the nav bar use CSS calc 
@@ -123,10 +181,11 @@
                 <div class="col-sm-6">
                     <div data-aos="fade-up" class="graybox">
                         <h1>Lorem ipsum </h1>
-                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4><div class="row my-3 mt-5">
-                           
-                              <div class="col-2 col-sm-2">
-                               
+                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4>
+                        <div class="row my-3 mt-5">
+
+                            <div class="col-2 col-sm-2">
+
                                 <i class="fas fa-cloud" style="font-size:120%"></i>
                                 <title>Icon For Cloud</title>
 
@@ -137,7 +196,7 @@
                             </div>
                         </div>
                         <div class="row my-3">
-                              <div class="col-2 col-sm-2">
+                            <div class="col-2 col-sm-2">
                                 <i class="fas fa-bars" style="font-size:150%"></i>
                                 <title>Icon For Cloud</title>
 
@@ -173,9 +232,10 @@
                 <div class="col-sm-6">
                     <div data-aos="fade-up" class="graybox">
                         <h1>Lorem ipsum </h1>
-                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4><div class="row my-3 mt-5">
+                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4>
+                        <div class="row my-3 mt-5">
                             <div class="col-2 col-sm-2 d-flex align-items-center">
-                               
+
                                 <i class="fas fa-cloud" style="font-size:120%"></i>
                                 <title>Icon For Cloud</title>
 
@@ -212,9 +272,9 @@
                 </div>
 
             </div>
-            
-<!--            TODO: in the tiles your rows styles are being respected probably becuase you styled the bootstrap divs like you werent supposed to-->
-            
+
+            <!--            TODO: in the tiles your rows styles are being respected probably becuase you styled the bootstrap divs like you werent supposed to-->
+
             <div class="row">
                 <div class="col-sm-6">
                     <!-- graybox d-flex justify-content-center -->
@@ -224,9 +284,10 @@
                 <div class="col-sm-6">
                     <div data-aos="fade-up" class="graybox">
                         <h1>Lorem ipsum </h1>
-                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4><div class="row my-3 mt-5">
+                        <h4 class="text-muted">Lorem ipsum dolor sit amet</h4>
+                        <div class="row my-3 mt-5">
                             <div class="col-2 col-sm-2 d-flex align-items-center">
-                               
+
                                 <i class="fas fa-cloud" style="font-size:120%"></i>
                                 <title>Icon For Cloud</title>
 
@@ -345,16 +406,16 @@
                             <h6 class="text-uppercase font-weight-bold">Products</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!">MDBootstrap</a>
+                                <a href="Skills.html">Skills</a>
                             </p>
                             <p>
-                                <a href="#!">MDWordPress</a>
+                                <a href="Skills.html">Services</a>
                             </p>
                             <p>
-                                <a href="#!">BrandFlow</a>
+                                <a href="Skills.html">Frameworks<br> & Languages</a>
                             </p>
                             <p>
-                                <a href="#!">Bootstrap Angular</a>
+                                <a href="Skills.html">Skills</a>
                             </p>
 
                         </div>
