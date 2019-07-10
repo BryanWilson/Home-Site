@@ -1,0 +1,24 @@
+HOME
+    ABOUT
+    CONTACT
+    
+FRAMEWORKS & LANGUAGES
+    HTML & CSS
+    BOOTSTRAP
+    JAVASCRIPT
+    JSON
+    SQL
+    
+    Github
+    
+SERVICES
+    WORDPRESS
+
+    
+SKILLS
+    WIDGETS
+    SITES
+    SEO & ANALYTICS
+    
+    
+    
