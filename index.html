@@ -23,7 +23,7 @@
     <title>Bryan Wilson | Web Devs</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
 
     <nav class="navbar navbar-expand-xs sticky-top bg-dark navbar-dark">
         <!-- Brand -->
@@ -42,13 +42,19 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="Skills.html">Skills</a>
+                    <a class="nav-link" href="#section1">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#section2">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Frameworks & Languages</a>
+                    <a class="nav-link" href="#section3">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section5">Frameworks & Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section6">Skills</a>
                 </li>
             </ul>
         </div>
@@ -58,7 +64,7 @@
         <div class="row">
 
 
-            <div class="welcome2">
+            <div id="section1" class="welcome2">
                 <div class="col-sm-12">
                     <div class="row">
 
@@ -81,6 +87,11 @@
 
                             </p>
                             <div class="collapse" id="collapseExample">
+
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBhKAELhc99rHjA06Pp9uIDABSzcB6MoL2sOBO6n-Re244fw/viewform?embedded=true" width="640" height="1102" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+                                <!--
                                 <div class="card card-body bg-transparent">
                                     <form id="contact-form" method="post" action="contact.php" role="form">
 
@@ -138,8 +149,9 @@
                                     </form>
 
 
-                                    <!--                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.-->
+                                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                                 </div>
+-->
                             </div>
                         </div>
                         <div class="col-sm-3"></div>
@@ -156,25 +168,33 @@
         </div>
 
     </div>
+
     </div>
     <!--
                 Viewport height 100% min - the px of the nav bar use CSS calc 
 -->
 
-    <div style="background-color:white">
+    <div id="section2" style="background-color:white">
         <div class="container">
 
             <div class="row">
                 <div class="col-sm-12">
                     <div data-aos="fade-up" class="firstMessage message graybox mt-5">
                         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+                        <!--
+                        <div class="col-sm-12">
+                            <div class="codeBlock">
+                                <script src="http://gist-it.appspot.com/github/BryanWilson/Home-Site/raw/master/index.html?slice=0:10"></script>
+                            </div>
+                        </div>
+-->
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
                     <!-- graybox d-flex justify-content-center -->
-                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox">
+                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox" id="section3">
                         <img src="https://dummyimage.com/400x400/000/fff" class="rounded"></div>
                 </div>
 
@@ -225,12 +245,12 @@
             <div class="row">
                 <div class="col-sm-6">
                     <!-- graybox d-flex justify-content-center -->
-                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox">
+                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox" id="section4">
 
                         <img src="https://dummyimage.com/400x400/000/fff" class="rounded"></div>
                 </div>
                 <div class="col-sm-6">
-                    <div data-aos="fade-up" class="graybox">
+                    <div data-aos="fade-up" class="graybox" id="section4">
                         <h1>Lorem ipsum </h1>
                         <h4 class="text-muted">Lorem ipsum dolor sit amet</h4>
                         <div class="row my-3 mt-5">
@@ -278,11 +298,11 @@
             <div class="row">
                 <div class="col-sm-6">
                     <!-- graybox d-flex justify-content-center -->
-                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox">
+                    <div data-aos="fade-up" class="d-flex justify-content-md-end justify-content-center graybox" id="section5">
                         <img class="img-responsive" src="https://dummyimage.com/400x400/000/fff" class="rounded"></div>
                 </div>
                 <div class="col-sm-6">
-                    <div data-aos="fade-up" class="graybox">
+                    <div data-aos="fade-up" class="graybox" id="section5">
                         <h1>Lorem ipsum </h1>
                         <h4 class="text-muted">Lorem ipsum dolor sit amet</h4>
                         <div class="row my-3 mt-5">

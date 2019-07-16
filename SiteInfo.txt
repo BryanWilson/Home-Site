@@ -1,24 +1,31 @@
 HOME
     ABOUT
     CONTACT
+    EMAIL CONTACT FORM
     
+    
+CAROULSEL OF WORK
+
+    
+SERVICES
+    WIDGETS
+    SITES
+    SEO & ANALYTICS
+
 FRAMEWORKS & LANGUAGES
     HTML & CSS
     BOOTSTRAP
     JAVASCRIPT
     JSON
     SQL
+
+SKILLS
+   Github
+   WORDPRESS
     
-    Github
-    
-SERVICES
-    WORDPRESS
 
     
-SKILLS
-    WIDGETS
-    SITES
-    SEO & ANALYTICS
+SHOWCASE CODE FROM GITHUB
     
     
     
