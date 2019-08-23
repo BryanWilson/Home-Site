@@ -23,3 +23,8 @@ SKILLS
     
     
 https://miketricking.github.io/bootstrap-image-hover/
+
+for embeding snipets of code:
+http://robertgreiner.com/2012/04/using-github-as-a-syntax-highlighter/
+or
+https://gist-it.appspot.com/
