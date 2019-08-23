@@ -142,4 +142,20 @@ img {
 
 .card {}
 
+.sourceCodeContainer {
+    border-color: whitesmoke;
+    box-shadow: 0p 10px #888888;
+    padding: 50px;
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
 .firstMessage {}
