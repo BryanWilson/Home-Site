@@ -15,6 +15,20 @@ body {
 
 }
 
+p {
+    font-family: "Quicksand", Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Quicksand", Times, serif;
+}
+
+
 /*Boot strap does not handle responsive text sizing so the media queries below set sizing per viewport*/
 
 @media (max-width: 575px) {
@@ -159,9 +173,8 @@ img {
 }
 
 #sourceCode {
-    max-height: 500px;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow: scroll;
+
 
 
 
