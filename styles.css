@@ -159,9 +159,7 @@ img {
 }
 
 #sourceCode {
-    max-height: 500px;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow: scroll;
 
 
 
