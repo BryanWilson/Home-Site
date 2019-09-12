@@ -74,18 +74,15 @@ img {
 }
 
 .graybox {
-/*
-    background-color: lightgrey;
+
     border-color: whitesmoke;
     box-shadow: 0p 10px #888888;
-
+    padding: 50px;
     border-bottom-style: solid;
     border-width: medium;
+    background-color: lightgrey;
     height: px;
     border-radius: 10px;
-*/
-    padding-left: 3vh;
-     padding-right: 3vh;
 
 }
 
@@ -154,7 +151,7 @@ img {
 .sourceCodeContainer {
     border-color: whitesmoke;
     box-shadow: 0p 10px #888888;
-    padding: 3vh;
+    padding: 50px;
     border-bottom-style: solid;
     border-width: medium;
     background-color: lightgrey;
