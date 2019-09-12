@@ -20,7 +20,9 @@ SKILLS
     SITES
     SEO & ANALYTICS
     
-    
+
+Bootstrap theme copy: https://themes.getbootstrap.com/preview/?theme_id=19860&show_new=
+
     
 https://miketricking.github.io/bootstrap-image-hover/
 
