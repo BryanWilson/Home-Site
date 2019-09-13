@@ -150,7 +150,7 @@ img {
     background-image: url("Images/299-08-blue-tech-hexagons-connect.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 15vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -159,13 +159,25 @@ img {
     background-size: cover;
 }
 
-.message {
+.Portfolio {
 
-
+    height: 50vh;
+    padding: 50px;
     text-align: center;
-    /*    height: 350px;*/
+    /*
+    border-color: whitesmoke;
     box-shadow: 0p 10px #888888;
+    
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
     border-radius: 10px;
+    border-color: whitesmoke;
+    border-bottom-style: solid;
+    border-width: medium;
+    background-color: lightgrey;
+    
+*/
 
 }
 
@@ -191,7 +203,3 @@ img {
     overflow: scroll;
 
 }
-
-
-
-.firstMessage {}
