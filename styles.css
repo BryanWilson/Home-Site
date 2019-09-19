@@ -135,23 +135,18 @@ img {
 }
 
 .welcome2 {
-
-
     text-align: center;
-
-
-
-
 }
 
 
 .parallax {
     /* The image used */
-    background-image: url("Images/299-08-blue-tech-hexagons-connect.jpg");
+    background-image: linear-gradient(-20deg, rgb(68, 129, 235, 0.1), rgb(4, 190, 254, 0.5)), url("Images/299-08-blue-tech-hexagons-connect.jpg");
+
+
 
     /* Set a specific height */
-    min-height: 15vh;
-
+    min-height: 30vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
