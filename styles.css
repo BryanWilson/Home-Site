@@ -179,6 +179,7 @@ img {
 .card {}
 
 .sourceCodeContainer {
+    min-height: 20vh;
     border-color: whitesmoke;
     box-shadow: 0p 10px #888888;
     padding: 50px;
