@@ -1,0 +1,306 @@
+body {
+
+    overflow-x: hidden;
+
+
+
+}
+
+.welcome1 {
+
+    height: 100vh;
+    /*
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+*/
+
+
+
+}
+
+.Header {
+    text-align: center;
+    background-image: url();
+    position: relative;
+    background-image: linear-gradient(to top, #4481eb 50%, #04befe 100%), url("images/Cubes.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+img.bryDevsHeaderLogo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+.row
+.col-sm-4
+.col-sm-6
+.col-sm-10
+.col-sm-12 {
+    
+    margin-top: 25px;
+    
+}
+*/
+
+.invert-me {
+    filter: invert(1);
+}
+
+/* background-image: linear-gradient(-20deg, rgb(68, 129, 235, 0.1), rgb(4, 190, 254, 0.5)), url("Images/299-08-blue-tech-hexagons-connect.jpg");*/
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar ul li a:hover {
+
+    /*    color: #FFDB6A !important;*/
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
+}
+
+.navbar a:hover {
+
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.text-info:hover {
+
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important
+}
+
+a.social-media-link-fb:hover {
+
+    color: #4267B2 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-tw:hover {
+
+    color: #71C9F8 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-li:hover {
+
+    color: #0073B0 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-ig:hover {
+
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
+}
+
+/*Disables Services anchor auto coloring blue*/
+a.services {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Service-Div:hover {
+    background-color: #FFDB6A;
+    color: #FFB519;
+
+}
+
+a.blockBtn:hover {
+
+    text-decoration: none;
+
+}
+
+
+.blockBtn {
+    /*PREVENTS CONTACT BUTTON FROM HALFWAY WRAPPING IN MD VIEWPORT*/
+    display: inline-block;
+
+
+}
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.parallax-aptech {
+    /* The image used */
+    background-image: url("images/Cubes.jpg");
+
+
+    /* Set a specific height */
+    min-height: 25vh;
+    min-width: 1vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.parallaxAboutSection {
+    /* The image used */
+    background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Cubes.jpg");
+    color: #fff;
+    /* Set a specific height */
+    /*    min-height: 100vh;*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxAboutSectionMobile {
+
+    /*    background-color: */
+    background-color: #023334;
+    background-image: linear-gradient(0deg, #023334 0%, #5BC0DE 100%);
+    color: #fff;
+    /* Set a specific height */
+    min-height: 20vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-tech {
+    /* The image used */
+    background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Servers.jpg");
+    color: #fff;
+
+    /* Set a specific height */
+    min-height: 50vh;
+    min-width: 1vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+
+.parallaxMid {
+    /* The image used */
+    background-image: url("images/Cubes.jpg");
+
+
+
+    /* Set a specific height */
+    min-height: 20vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Services-container {
+
+    min-height: 100vh;
+
+
+}
+
+
+
+.Services-bg-left {
+
+    min-height: 50vh;
+    background-image: url(images/illustration-4.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Services-mid {
+
+    min-height: 50vh;
+
+
+}
+
+
+
+
+.Services-bg-right {
+
+    min-height: 50vh;
+    background-image: url(images/illustration-4.png);
+    background position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.background {
+
+    background-image: url(images/illustration-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(-240deg, rgb(4, 190, 254, 0.5), rgb(255, 255, 255, 0.1)), url("images/illustration-4.png");
+
+
+
+}
+
+.aptech {
+    border-radius: 25px;
+    opacity: 0.9
+}
+
+#grad1 {
+    height: 200px;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /* Standard syntax (must be last) */
+}
+
+
+.iconSize {
+
+    font-size: 3em;
+
+}
+
+
+/*prevents client portal nav item from wrapping to new line*/
+
+.noWrap {
+
+    white-space: nowrap;
+}
