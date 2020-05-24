@@ -63,7 +63,7 @@ img.bryDevsHeaderLogo {
 .navbar ul li a:hover {
 
     /*    color: #FFDB6A !important;*/
-    color: #FFDB6A !important;
+    color: #5FC1C5 !important;
     text-decoration: none;
      !important;
 
@@ -71,7 +71,7 @@ img.bryDevsHeaderLogo {
 
 .navbar a:hover {
 
-    color: #FFDB6A !important;
+    color: #5FC1C5 !important;
     text-decoration: none;
      !important;
 
@@ -79,7 +79,7 @@ img.bryDevsHeaderLogo {
 
 a.text-info:hover {
 
-    color: #FFDB6A !important;
+    color: #5FC1C5 !important;
     text-decoration: none;
      !important
 }
