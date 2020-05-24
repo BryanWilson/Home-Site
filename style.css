@@ -21,11 +21,14 @@ body {
 
 .Header {
     text-align: center;
-    background-image: url();
+
     position: relative;
-    background-image: linear-gradient(to top, #4481eb 50%, #04befe 100%), url("images/Cubes.jpg");
+    background-image: linear-gradient(to top, #4481eb 10%, rgba(100, 0, 0, 0)), url("images/datapoints.jpg");
     background-size: 100%;
+    background-attachment: fixed;
+
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -148,7 +151,7 @@ a.blockBtn:hover {
 
 .parallax-aptech {
     /* The image used */
-    background-image: url("images/Cubes.jpg");
+    background-image: url("images/datapoints.jpg");
 
 
     /* Set a specific height */
@@ -166,7 +169,7 @@ a.blockBtn:hover {
 
 .parallaxAboutSection {
     /* The image used */
-    background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Cubes.jpg");
+    background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/datapoints.jpg");
     color: #fff;
     /* Set a specific height */
     /*    min-height: 100vh;*/
