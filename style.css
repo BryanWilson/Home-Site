@@ -21,10 +21,26 @@ body {
 
 .Header {
     text-align: center;
-    
+    background-size: contain;
+    display: block;
+    overflow: visible;
+    height: 450px;
+    margin-bottom: 0px;
+    padding-bottom: 33px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    background-color: #f3f4f5;
+    background-image: url(https://uploads-ssl.webflow.com/5d2d902…/5d71df7…_Isometric%20pattern%20light.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
 
     position: relative;
-    background-image: url("images/Polygon.png"), linear-gradient(to top, #4481eb 10%, rgba(100, 0, 0, 0)); 
+    background-image: url("images/PolygonDark.png"), linear-gradient(to top, #252525 10%, rgba(0, 123, 255, 100)); 
    
     
 }
