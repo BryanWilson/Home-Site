@@ -21,14 +21,12 @@ body {
 
 .Header {
     text-align: center;
+    
 
     position: relative;
-    background-image: linear-gradient(to top, #4481eb 10%, rgba(100, 0, 0, 0)), url("images/datapoints.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("images/Polygon.png"), linear-gradient(to top, #4481eb 10%, rgba(100, 0, 0, 0)); 
+   
+    
 }
 
 
