@@ -1,7 +1,7 @@
 body {
 
     overflow-x: hidden;
-
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 
 
 }
@@ -14,6 +14,7 @@ body {
     text-align: center;
     padding-top: 20px;
 */
+
 
 
 
@@ -40,15 +41,16 @@ body {
     background-attachment: fixed;
 
     position: relative;
-    background-image: url("images/PolygonDark.png"), linear-gradient(to top, #252525 10%, rgba(0, 123, 255, 100)); 
-   
-    
+    background-image: url("images/PolygonDark.png");
+    background-color: #252525;
+
+
 }
 
 
 img.bryDevsHeaderLogo {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 /*
