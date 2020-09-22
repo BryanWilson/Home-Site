@@ -34,21 +34,48 @@ body {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
     background-color: #f3f4f5;
-    background-image: url(Images/PolygonDark.png);
-    background-position: 50% 50%;
+
+ 
+  
+ 
+background: rgba(56, 122, 237, 1.0);
+background: -webkit-linear-gradient(bottom, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 1.0));
+background: -moz-linear-gradient(bottom, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 1.0));
+background: linear-gradient(to top, rgba(56, 122, 237, 1.0)), url(Images/PolygonDark.png);
+    
+
+
+     background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 0.9)),
+      url("Images/PolygonDark.png");
+       background-position: 50% 50%;
     background-size: contain;
     background-repeat: repeat;
     background-attachment: fixed;
 
-    position: relative;
-    background-image: url("images/PolygonDark.png");
-    background-color: #252525;
-    
-    
+
 
 
 }
 
+.text-gradient {
+    background: linear-gradient(to top, #387AED, #13A2B8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.test {
+
+    background: #387AED;
+    background: -webkit-linear-gradient(bottom, #387AED, #13A2B8);
+    background: -moz-linear-gradient(bottom, #387AED, #13A2B8);
+    background: linear-gradient(to top, #387AED, #13A2B8);
+
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+
+}
 
 img.bryDevsHeaderLogo {
     max-width: 50%;
