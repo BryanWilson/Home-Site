@@ -37,12 +37,10 @@ body {
 
  
   
+/*
  
-background: rgba(56, 122, 237, 1.0);
-background: -webkit-linear-gradient(bottom, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 1.0));
-background: -moz-linear-gradient(bottom, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 1.0));
-background: linear-gradient(to top, rgba(56, 122, 237, 1.0)), url(Images/PolygonDark.png);
-    
+  background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(50, 50, 184, 0.9)),
+*/
 
 
      background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 0.9)),
