@@ -20,19 +20,17 @@ body {
 
 }
 
+
+
+
 .Header {
     text-align: center;
     background-size: contain;
-    display: block;
     overflow: visible;
     height: 450px;
-    margin-bottom: 0px;
-    padding-bottom: 33px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
+   
+    
+   
     background-color: #f3f4f5;
 
  
@@ -43,9 +41,37 @@ body {
 */
 
 
-     background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(19, 162, 184, 0.9)),
+     background-image: 
       url("Images/PolygonDark.png");
-       background-position: 50% 50%;
+      
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: left;
+
+background-repeat:repeat;
+
+
+}
+
+
+.diamond-top {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: url(Images/PolygonDark.png);
+   
+    border-radius: 40px;
+    z-index: 0;
+    margin-top: -220px;
+    margin-left: 100px;
+     
+}
+
+.HeaderTest {
+
+
+     background-image: "Images/PolygonDark.png"
+       background-position: 0%;
     background-size: contain;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -55,6 +81,7 @@ body {
 
 }
 
+
 .text-gradient {
     background: linear-gradient(to top, #387AED, #13A2B8);
     -webkit-background-clip: text;
@@ -63,16 +90,40 @@ body {
 
 .test {
 
-    background: #387AED;
-    background: -webkit-linear-gradient(bottom, #387AED, #13A2B8);
-    background: -moz-linear-gradient(bottom, #387AED, #13A2B8);
-    background: linear-gradient(to top, #387AED, #13A2B8);
-
+      background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(0, 241, 201, 0.9)),
+      url("Images/PolygonDark.png");
+       background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
 
+}
+
+
+.hexBG {
+    background-image: url("Images/PolygonDark.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 800px;
+    background-repeat: repeat;
+    height:inherit;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+
+    
+}
+
+.GradientLayer {
+    background-image: linear-gradient(to top, rgba(56, 122, 237, 1.0), rgba(56, 122, 237, 1.0), rgba(0, 241, 201, 0.9), rgba(0, 241, 201, 0.9), rgba(56, 122, 237, 1.0));
+    background-attachment: fixed;
+    height: 100%;
+    border-radius: 20px;
 }
 
 img.bryDevsHeaderLogo {
@@ -349,4 +400,14 @@ a.blockBtn:hover {
 .noWrap {
 
     white-space: nowrap;
+}
+
+.test3 {
+    overflow: hidden;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+       -webkit-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 0.75);
 }
